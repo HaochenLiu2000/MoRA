@@ -31,11 +31,13 @@ Write your own OpenAI API key and Anthropic API key in the first few lines of `.
 ## 3. Setting up
 
 Run
+
     python process_document.py
 
 ## 4. Training
 
 Run
+
     python test.py
 
 You can check and choose the dataset, model and phase in the first few lines of the code. For training, set the phase to `train`.
@@ -44,6 +46,7 @@ You can check and choose the dataset, model and phase in the first few lines of 
 ## 5. Evidence Generation
 
 Run
+
     python test.py
 
 You can check and choose the dataset, model and phase in the first few lines of the code. For Evidence Generation, set the phase to `test`.
@@ -53,6 +56,7 @@ You can check and choose the dataset, model and phase in the first few lines of 
 For the final generation of question answering using retrieved evidence.
 
 Run
+
     python test_llmqa.py
 
 You can choose the dataset and evidence file name in the code. 
